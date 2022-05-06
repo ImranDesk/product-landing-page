@@ -28,14 +28,12 @@ body {
   padding: 2rem 4rem;
 }
 
-
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   cursor: pointer;
-  
 }
 .logo i {
   font-family: "Times New Roman", Times, serif;
@@ -52,7 +50,7 @@ body {
   text-transform: uppercase;
   display: inline-block;
   font-size: small;
-  color: white;
+  color: rgb(36, 36, 36);
 }
 
 .info {
@@ -70,7 +68,6 @@ button {
   color: white;
   background: #f95f3f;
   cursor: pointer;
-
 }
 .btn-white {
   background: transparent;
@@ -92,12 +89,11 @@ button:active {
 
 h2 {
   font-family: "Roboto Mono", monospace;
- 
 }
-h2, p{
-    color: rgb(36, 36, 36);
-
+h2,
+p {
+  color: rgb(36, 36, 36);
 }
-.menu p:hover{
-    border-bottom:1px solid white;
+.menu p:hover {
+    color: white;
 }
