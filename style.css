@@ -52,7 +52,9 @@ body {
   font-size: small;
   color: rgb(36, 36, 36);
 }
-
+.search-icon {
+  width: 2rem;
+}
 .info {
   display: flex;
   flex-direction: column;
@@ -95,5 +97,5 @@ p {
   color: rgb(36, 36, 36);
 }
 .menu p:hover {
-    color: white;
+  color: white;
 }
