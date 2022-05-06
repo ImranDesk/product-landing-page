@@ -27,12 +27,15 @@ body {
   align-items: center;
   padding: 2rem 4rem;
 }
+
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   cursor: pointer;
+  
 }
 .logo i {
   font-family: "Times New Roman", Times, serif;
@@ -42,6 +45,7 @@ body {
 .menu {
   display: flex;
   gap: 3rem;
+  align-items: center;
   cursor: pointer;
 }
 .menu p {
@@ -66,6 +70,8 @@ button {
   color: white;
   background: #f95f3f;
   cursor: pointer;
+  transition: all .5s ease;
+
 }
 .btn-white {
   background: transparent;
@@ -92,4 +98,7 @@ h2 {
 h2, p{
     color: rgb(36, 36, 36);
 
+}
+.menu p:hover{
+    border-bottom:1px solid white;
 }
