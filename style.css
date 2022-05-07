@@ -50,11 +50,47 @@ body {
   text-transform: uppercase;
   display: inline-block;
   font-size: small;
+  font-weight: bold;
   color: rgb(36, 36, 36);
 }
-.search-icon {
-  width: 2rem;
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.search-input {
+  width: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.search:hover > .search-input {
+  width: 10rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 40px;
+}
+.search-input {
+  transition: all 0.5s ease;
+  position: absolute;
+  right: 4rem;
+  padding: 0 1rem;
+  color: rgb(36, 36, 36);
+}
+a {
+  text-decoration: none;
+}
+.search-btn {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  right: 4rem;
+  color: rgb(36, 36, 36);
+}
+
 .info {
   display: flex;
   flex-direction: column;
