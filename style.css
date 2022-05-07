@@ -51,6 +51,7 @@ body {
   display: inline-block;
   font-size: small;
   font-weight: bold;
+  transition: all 0.5s ease;
   color: rgb(36, 36, 36);
 }
 
@@ -98,6 +99,14 @@ a {
   padding: 6rem;
   gap: 2rem;
 }
+.pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic img{
+  width: 100%;
+}
 button {
   width: 8rem;
   padding: 1rem;
@@ -106,6 +115,9 @@ button {
   color: white;
   background: #f95f3f;
   cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+
 }
 .btn-white {
   background: transparent;
