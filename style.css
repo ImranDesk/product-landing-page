@@ -1,3 +1,5 @@
+@import "responsive.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -99,12 +101,12 @@ a {
   padding: 6rem;
   gap: 2rem;
 }
-.pic{
+.pic {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.pic img{
+.pic img {
   width: 100%;
 }
 button {
@@ -117,7 +119,6 @@ button {
   cursor: pointer;
   transition: all 0.2s ease;
   font-weight: bold;
-
 }
 .btn-white {
   background: transparent;
@@ -146,4 +147,47 @@ p {
 }
 .menu p:hover {
   color: white;
+}
+
+/* responsive  */
+@media screen and (max-width:820px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+  }
+
+  .search:hover > .search-input {
+    width: 6rem;
+  }
+
+  .info {
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+  .info h2,
+  .info p {
+    font-size: xx-large;
+    text-align: center;
+  }
+  .btn {
+    padding-top: 2rem;
+  }
+  button {
+    width: 18rem;
+    height: 6rem;
+  }
+  .navbar {
+    padding-top: 3rem;
+  }
+  .navbar h2 {
+    font-size: xx-large;
+  }
+  .navbar p {
+    font-size: larger;
+  }
+  .menu {
+    gap: 2rem;
+  }
 }
